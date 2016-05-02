@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F92DC991CD81AB00096DDDC /* TableClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F92DC981CD81AB00096DDDC /* TableClass.swift */; };
 		5FD7A1FB1CD77D3700866AD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD7A1FA1CD77D3700866AD6 /* AppDelegate.swift */; };
 		5FD7A1FD1CD77D3700866AD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD7A1FC1CD77D3700866AD6 /* ViewController.swift */; };
 		5FD7A2001CD77D3700866AD6 /* vFitness.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5FD7A1FE1CD77D3700866AD6 /* vFitness.xcdatamodeld */; };
@@ -14,7 +15,6 @@
 		5FD7A2051CD77D3700866AD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD7A2031CD77D3700866AD6 /* Main.storyboard */; };
 		5FD7A2101CD77D3700866AD6 /* vFitnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD7A20F1CD77D3700866AD6 /* vFitnessTests.swift */; };
 		5FD7A21B1CD77D3700866AD6 /* vFitnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD7A21A1CD77D3700866AD6 /* vFitnessUITests.swift */; };
-		5FD7A2291CD77E6E00866AD6 /* TableClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD7A2281CD77E6E00866AD6 /* TableClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F92DC981CD81AB00096DDDC /* TableClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableClass.swift; path = ../../../engine/TableClass.swift; sourceTree = "<group>"; };
 		5FD7A1F71CD77D3700866AD6 /* vFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FD7A1FA1CD77D3700866AD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FD7A1FC1CD77D3700866AD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +49,6 @@
 		5FD7A2161CD77D3700866AD6 /* vFitnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vFitnessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FD7A21A1CD77D3700866AD6 /* vFitnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vFitnessUITests.swift; sourceTree = "<group>"; };
 		5FD7A21C1CD77D3700866AD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FD7A2281CD77E6E00866AD6 /* TableClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +99,13 @@
 		5FD7A1F91CD77D3700866AD6 /* vFitness */ = {
 			isa = PBXGroup;
 			children = (
+				5F92DC981CD81AB00096DDDC /* TableClass.swift */,
 				5FD7A1FA1CD77D3700866AD6 /* AppDelegate.swift */,
 				5FD7A1FC1CD77D3700866AD6 /* ViewController.swift */,
 				5FD7A2011CD77D3700866AD6 /* Assets.xcassets */,
 				5FD7A2031CD77D3700866AD6 /* Main.storyboard */,
 				5FD7A2061CD77D3700866AD6 /* Info.plist */,
 				5FD7A1FE1CD77D3700866AD6 /* vFitness.xcdatamodeld */,
-				5FD7A2281CD77E6E00866AD6 /* TableClass.swift */,
 			);
 			path = vFitness;
 			sourceTree = "<group>";
@@ -259,7 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FD7A1FD1CD77D3700866AD6 /* ViewController.swift in Sources */,
-				5FD7A2291CD77E6E00866AD6 /* TableClass.swift in Sources */,
+				5F92DC991CD81AB00096DDDC /* TableClass.swift in Sources */,
 				5FD7A2001CD77D3700866AD6 /* vFitness.xcdatamodeld in Sources */,
 				5FD7A1FB1CD77D3700866AD6 /* AppDelegate.swift in Sources */,
 			);
@@ -483,6 +483,7 @@
 				5FD7A2211CD77D3700866AD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FD7A2221CD77D3700866AD6 /* Build configuration list for PBXNativeTarget "vFitnessTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +492,7 @@
 				5FD7A2241CD77D3700866AD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FD7A2251CD77D3700866AD6 /* Build configuration list for PBXNativeTarget "vFitnessUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +501,7 @@
 				5FD7A2271CD77D3700866AD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
